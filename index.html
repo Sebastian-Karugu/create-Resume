@@ -6,6 +6,19 @@
 		<style>
 		body{background-color:orange;
 		}
+			.edits{display:flex;
+		flex-wrap:wrap;
+		justify-content:center;}
+		#mainleft{display:flex;
+height:800px;
+width:400px;
+flex-direction:column;
+background-color:red;}
+#mainright{display:flex;
+height:800px;
+width:400px;
+flex-direction:column;
+background-color:green;}
 		
 		</style>
 	</head>
@@ -18,8 +31,8 @@
 			Kabarak University 
 			<hr>
 		</header>
-		<main>
-			<article id="mainLeft">
+		<main class="edits">
+			<article id="mainLeft"  style="margin:20px;">
 				<section>
 					<h2>CONTACT</h2>
 					<!-- contact info including social media -->
@@ -58,7 +71,7 @@
                     </p>
 				</section>            
 			</article>
-			<article id="mainRight">
+			<article id="mainRight"  style="margin:20px;">
 				<section>
 					<h2>ABOUT</h2>
 					<!-- about you -->
